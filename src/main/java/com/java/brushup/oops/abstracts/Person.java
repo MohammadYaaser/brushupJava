@@ -1,4 +1,4 @@
-package com.java.brushup.oops.anstract;
+package com.java.brushup.oops.abstracts;
 
 import lombok.AllArgsConstructor;
 import lombok.ToString;

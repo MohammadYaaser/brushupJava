@@ -1,4 +1,4 @@
-package com.java.brushup.oops.anstract;
+package com.java.brushup.oops.abstracts;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

@@ -1,5 +1,4 @@
-package com.java.brushup.oops.anstract;
-import java.util.concurrent.atomic.AtomicInteger;
+package com.java.brushup.oops.abstracts;
 
 public class Employee extends Person {
 
