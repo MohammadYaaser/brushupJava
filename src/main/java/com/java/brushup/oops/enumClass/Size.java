@@ -1,7 +1,21 @@
 package com.java.brushup.oops.enumClass;
 
 enum Size {
-    SMALL,MEDIUM,LARGE, EXTRA_LARGE, DOUBLE_LARGE, DOUBLE_LARGE_EXTRA
+    //SMALL,MEDIUM,LARGE, EXTRA_LARGE, DOUBLE_LARGE, DOUBLE_LARGE_EXTRA;
+
+    SMALL("The size is small."),
+    MEDIUM("The size is medium."),
+    LARGE("The size is large."),
+    EXTRA_LARGE("The size is extra large.");
+
+    private final String pizzaSize;
+    Size(String pizzaSize) {
+        this.pizzaSize = pizzaSize;
+    }
+
+    public String getSize() {
+        return pizzaSize;
+    }
 }
 
 class Test {
